@@ -1,8 +1,0 @@
-klasy: Person, Addres, Student, Professor
-
-atrybuty i ich typy danych: 
-Name: string, Surname: string, Age: int
-Student Number: int, Average Mark: double
-Street : string, City: string, State:string, Postal Code: string, Country: string 
-
-Metody i typy danych: IntroduceYourself() string, Validate: boolean, Output As Label: boolean, Is Eligible To Enroll: boolean, Get Seminars Taken: boolean
