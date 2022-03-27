@@ -1,15 +1,19 @@
-package PJATK;
+package PGO;
 
 public class Main {
     public static void main(String[] args) {
-        // Zadanie 1
-        Telephone telephone = new Telephone("Samsung", 2.3, 123456789);
-        telephone.message(241521122, "hejka");
 
-        //Zadanie 3
-        Car car = new Car("czarny", "skoda", 2.0);
-        car.information();
-        car.engine(2.2);
-        car.highspeed();
+        //Zadanie
+        Airplane airplane = new Airplane(30000, 2000, "Wizzer", 100);
+        System.out.println("Marka samolotu: " + airplane.getBrand());
+
+        airplane.setPlaces(150);
+        System.out.println("Zmiana miejsc: " + airplane.getPlaces());
+
+        System.out.println("Rok produkcji silnika: " + airplane.getYear());
+
+        System.out.println("Ilosc koni mechanicznych: " + airplane.getHp());
+
+        airplane.eco();
     }
 }
